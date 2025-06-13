@@ -1,6 +1,6 @@
 {
   "name": "@mj-kiwi/podcast-index-api",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "exports": {
     ".": {
@@ -20,10 +20,11 @@
   "scripts": {
     "build": "unbuild",
     "build:stub": "unbuild --stub",
-    "test": "vitest"
+    "test": "vitest",
+    "ci:publish": "pnpm publish -r"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.4",
+    "@changesets/cli": "^2.29.4",
     "@types/crypto-js": "^4.2.2",
     "@types/node": "^24.0.1",
     "@vitest/coverage-v8": "^3.2.3",
