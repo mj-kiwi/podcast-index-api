@@ -50,5 +50,9 @@
   ],
   "author": "MJ Kiwi <me@mj.kiwi>",
   "license": "ISC",
-  "description": "A TypeScript client for the Podcast Index API with comprehensive type definitions and full API coverage"
+  "description": "A TypeScript client for the Podcast Index API with comprehensive type definitions and full API coverage",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }
