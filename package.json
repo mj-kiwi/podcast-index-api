@@ -15,7 +15,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "unbuild",
@@ -36,8 +37,18 @@
     "crypto-js": "^4.2.0",
     "typescript": "^5.8.3"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "podcast",
+    "podcasting",
+    "api",
+    "podcast-index",
+    "typescript",
+    "axios",
+    "value4value",
+    "podcast-api",
+    "podcast-search"
+  ],
+  "author": "MJ Kiwi <me@mj.kiwi>",
   "license": "ISC",
-  "description": ""
+  "description": "A TypeScript client for the Podcast Index API with comprehensive type definitions and full API coverage"
 }
